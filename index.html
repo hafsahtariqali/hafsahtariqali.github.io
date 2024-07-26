@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Hafsa Tariq Ali</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">portfolio</a>
+      <nav>
+        <ul class="sidebar">
+          <li onclick=hideSideBar(event)><a href="" class="cross"><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="#home" class="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Ft. Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://drive.google.com/file/d/1UYg_tdee4ie3Mre5uWzCFXK-hqRstljp/view?usp=drive_link"><button class="button">Resume</button></a></li>
+        </ul>
+
+        <ul>
+        <li class="hideOnMobile"><a href="#home" class="active">Home</a></li>
+        <li class="hideOnMobile"><a href="#about">About</a></li>
+        <li class="hideOnMobile"><a href="#projects">Ft. Project</a></li>
+        <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+        <li class="hideOnMobile"><a href="https://drive.google.com/file/d/1UYg_tdee4ie3Mre5uWzCFXK-hqRstljp/view?usp=drive_link"><button class="button">Resume</button></a></li>
+        <li onclick=showSideBar(event) class="menu-icon"><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#ffffff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <div class="intro">
+        <h3>Hi, I'm Hafsa Tariq Ali, a</h3>
+        <h1>FRONT-END <br />
+        WEB DEVELOPER.</h1>
+        <p>An aspiring <span>Front-End Developer</span> and <span>UI/UX Designer</span> passionate about creating intuitive and visually stunning experiences that authentically represent the essence of the brand/clients.</p>
+      </div>
+    </section>
+    <section id="about" class="about-container-section">
+      <div class="about__content">
+        <h2 class="about__title">About</h2>
+        <p class="about__description">
+          Hello! I'm Hafsa Tariq Ali, a
+          <span>Front-End</span> Web Developer based
+          in Pakistan. If I were asked how I stand out amongst others in the industry, I would mention my love for creating web experiences that reflect the unique essence of each project and my attention to detail.
+        </p>
+        <p class="about__description">
+          People around me know me as a perfectionist, and that's true, as I often work tirelessly for hours just to achieve my desired look for each brand. 
+        </p>
+        <p class="about__description">
+          When I'm not coding, you'll find me either playing with new design technologies, or creating visuals for non-profit organizations. 
+        </p>
+        <hr class="about__hr" />
+        <h3 class="about__subtitle">Technologies</h3>
+        <div class="about__ul-container">
+          <ul class="about__ul">
+            <li class="about__list">- JavaScript (ES6+)</li>
+            <li class="about__list">- CSS</li>
+            <li class="about__list">- HTML</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about__img-wrapper">
+        <img class="about__img"
+          src="public\images\aboutus.jpeg"
+          data-src="/about.jpg"
+          alt="Profile picture"
+        />
+      </div>
+    </section>
+    <section id="projects" class="featured-container-section">
+      <div class="project-info">
+        <p>Featured Project</p>
+        <h2>Cupcake Cuddles</h2>
+        <p class="project-description">Cupcake Cuddles is the online representation of a cozy coffee shop offering a wide variety of delicious cupcakes, cakes, and beverages. Depicting a cute and cozy theme with pastel colors and adorable fonts, the website perfectly mirrors the ambiance of the shop. The Cupcake Cuddles website invites its digital users to enjoy the sweet and cozy atmosphere.</p>
+        <a href="https://cupcakecuddles.netlify.app/"><button class="button">Project Demo</button></a>
+      </div>
+      <div class="tech-container">
+        <div class="tech-item">
+          <h4>Tech Stack</h4>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+        </div>
+        <div class="tech-item">
+          <h4>Project Type</h4>
+          <p>Build for Business<br>Volunteer Event</p>
+        </div>
+        <div class="tech-item">
+          <h4>Timeline</h4>
+          <p>March 2024 - April 2024</p>
+        </div>
+      </div>
+      <div class="images">
+        <div class="project-image">
+          <img src="https://placehold.co/600x400" data-src="public\images\homepage.jpg" class="lazyload" width="100%" height="auto">
+        </div>
+        <div class="project-image">
+          <img src="https://placehold.co/600x400" data-src="public\images\menu.jpg" class="lazyload" width="100%" height="auto">
+        </div>
+      </div>
+      <div class="images">
+        <div class="project-image">
+          <img src="https://placehold.co/600x400" data-src="public\images\bookatable.jpg" class="lazyload" width="100%" height="auto">
+        </div>
+        <div class="project-image">
+          <img src="https://placehold.co/600x400" data-src="public\images\aboutus.jpg" class="lazyload" width="100%" height="auto">
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-area">
+      <div class="contact">
+        <h2>Get in Contact</h2>
+        <p>Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open so feel free to reach out and I will get back to you as soon as possible.</p>
+        <button class="contact-button" onclick="location.href='mailto:alihafsatariq@gmail.com?subject=Contact%20Me'">Contact Me</button>
+        <a href="https://drive.google.com/file/d/1UYg_tdee4ie3Mre5uWzCFXK-hqRstljp/view?usp=drive_link"><button class="contact-button">Download Resume</button></a>
+      </div>
+    </section>
+
+    <footer>
+      <p> ~ HAFSA TARIQ ALI ~</p>
+    </footer>
+    <script>
+    function showSideBar(event) {
+        event.preventDefault();
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+    }
+
+    function hideSideBar(event) {
+        event.preventDefault();
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+    let lazyImages = [].slice.call(document.querySelectorAll("img.lazyload"));
+
+    if ("IntersectionObserver" in window) {
+        let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    let lazyImage = entry.target;
+                    lazyImage.src = lazyImage.dataset.src;
+                    lazyImage.classList.remove("lazyload");
+                    lazyImageObserver.unobserve(lazyImage);
+                }
+            });
+        });
+
+        lazyImages.forEach(function(lazyImage) {
+            lazyImageObserver.observe(lazyImage);
+        });
+    } else {
+        // Fallback for browsers that don't support IntersectionObserver
+        let lazyLoad = function() {
+            for (let i = 0; i < lazyImages.length; i++) {
+                if (lazyImages[i].getBoundingClientRect().top < window.innerHeight) {
+                    lazyImages[i].src = lazyImages[i].dataset.src;
+                    lazyImages[i].classList.remove("lazyload");
+                }
+            }
+        };
+
+        window.addEventListener("scroll", lazyLoad);
+        window.addEventListener("resize", lazyLoad);
+        lazyLoad();
+    }
+});
+
+  </script>
+  </body>
+</html>
